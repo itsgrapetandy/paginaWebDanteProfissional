@@ -4,24 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <h1>
-        Eleve seu negócio digital a outro nível
-        <strong>com um front end de qualidade!</strong>
-      </h1>
-      <p>
-        Olá! Sou Dante Luiz, desenvolvedor full-stack com especialidade em Html,
-        Css, JavaScript e Php. ajudo grandes empresas a otimizarem a melhorar os
-        sites entregues para seus clientes. Vamos conversar?
-      </p>
-      <a href="https://www.instagram.com/danteluixx/">Instagram</a>
-      <a href="https://github.com/itsgrapetandy">Github</a>
-      <img src="dantefeliz.jpg" alt="dante" />
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+      </nav>
+    </header>
+    <main class="apresentacao">
+      <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">
+          Eleve seu negócio digital a outro nível
+          <strong class="titulo-destaque"
+            >com um front end de qualidade!</strong
+          >
+        </h1>
+        <p class="apresentacao__conteudo__paragrafo">
+          Olá! Sou Dante Luiz, desenvolvedor full-stack com especialidade em
+          <strong>Html, Css, JavaScript e Php.</strong> Ajudo grandes empresas a
+          otimizarem e a melhorar os sites entregues para seus clientes. Vamos
+          conversar?
+        </p>
+        <div class="apresentacao__links">
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+          <a
+            class="apresentacao__links__navegacao"
+            href="https://www.twitch.tv/tandyy_"
+          >
+            <img src="./assets/twitch.png" alt="twitch" />
+            Twitch</a
+          >
+          <a
+            class="apresentacao__links__navegacao"
+            href="https://github.com/itsgrapetandy"
+          >
+            <img src="./assets/github.png" alt="github" />
+            Github</a
+          >
+          <a
+            class="apresentacao__links__navegacao"
+            href="https://www.linkedin.com/in/dante-luiz-barros-gomes-dev/"
+          >
+            <img src="./assets/linkedin.png" alt="linkedin" />
+            LinkedIn</a
+          >
+        </div>
+      </section>
+      <img
+        class="apresentacao__imagem"
+        src="./assets/dantefeliz.jpg  "
+        alt="dante"
+      />
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <p>Desenvolvido por Dante</p>
+    </footer>
   </body>
 </html>
